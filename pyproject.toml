@@ -1,0 +1,24 @@
+[project]
+name = "triton-autolib"
+version = "0.0.1.0"
+description = "A modular toolkit for accelerating trition kernels development"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [
+    { name = "Martico2432", email = "170757557+Martico2432@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "triton>=3.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "torch>=2.2.0",
+    "pytest>=8.0.0",
+    "numpy>=2.0.0"
+]
+
+[build-system]
+requires = ["uv_build>=0.12.7,<0.13.0"]
+build-backend = "uv_build"
