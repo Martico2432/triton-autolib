@@ -1,7 +1,7 @@
 [project]
 name = "triton-autolib"
 version = "0.1.0"
-description = "A modular toolkit for accelerating trition kernels development"
+description = "A modular toolkit for accelerating triton kernels development"
 readme = "README.md"
 license = { text = "MIT" }
 authors = [

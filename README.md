@@ -1,7 +1,7 @@
 
 # Triton Autolib
 
-A modular toolkit for accelerating trition kernels development
+A modular toolkit for accelerating triton kernels development
 
 
 
